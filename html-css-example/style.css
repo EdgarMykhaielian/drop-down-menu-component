@@ -1,0 +1,47 @@
+:root{
+    --color1: lightgreen;
+    --color2: lightblue;
+    --color3: lavender;
+    --color4: grey;
+}
+
+header {
+    max-width: 1000px;
+    margin: auto;
+}
+
+menu>ul {
+    background-color: var(--color1);
+}
+
+menu>ul>li>span {
+    display: inline-block;
+    width: 100%;
+}
+
+menu li {
+    text-transform: capitalize;
+    cursor: pointer;
+}
+menu li:hover{
+    background-color: var(--color3);
+}
+menu>ul>hr {
+    width: 100%;
+    border: none;
+}
+
+menu li>ul {
+    min-width: 100px;
+}
+
+menu li li {
+    padding: 5px;
+    background-color: var(--color2);
+}
+
+menu li hr {
+    border: 8px solid var(--color2);
+    background-color: var(--color4);
+    height: 1px;
+}
