@@ -1,0 +1,15 @@
+menu>ul {
+    display: flex;
+}
+
+menu span {
+    padding: 5px;
+}
+
+menu li>ul {
+    position: absolute;
+}
+
+menu :not(:hover)>ul {
+    display: none;
+}
